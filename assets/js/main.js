@@ -21,12 +21,12 @@ const app = Vue.createApp({
           q1: 'アルバム',
         },
         stage2: {
-          q1: 'いいい',
-          q2: 'えええ',
+          q1: '神社',
+          q2: '廃墟',
           // q3: 'おおお'
         },
         stage3: {
-          q1: 'ううう',
+          q1: 'ほのか',
           // q2: 'かかか',
           // q3: 'ききき',
         }
@@ -99,8 +99,8 @@ app.component('answer-input', {
   data: function () {
     return {
       /* 送信ボタン上下に表示されるメッセージ */
-      okMessage: '正解！',
-      ngMessage: 'そのキーワードは違うようだぞ！？',
+      okMessage: 'その通りかも！！',
+      ngMessage: 'いや、その答えは違うんじゃないかな？',
       message: '',
       inputAnswer: '',
     }
